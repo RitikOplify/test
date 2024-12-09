@@ -8,22 +8,28 @@ const LandingPage = () => {
   const [animate, setAnimate] = useState(false);
   const contentData = [
     {
+      heading: 'Innovative Brazing Solutions',
+      image: "/HomePageBanner/Brazingsolutionsliderimage.jpg",
+      subheading: "Precision and Reliability",
+      desc: "Safe Invotec: Delivering Advanced Brazing Technologies for Unmatched Performance and Durability",
+    }
+    , {
+      heading: 'Efficient and Reliable',
       image: "/HomePageBanner/gassaversliderimage.png",
       subheading: "Gas Savers",
       desc: "Reduce gas usage and maximize efficiency with our trusted solutions",
-      heading: "Gas Savers",
     },
     {
+      heading: 'Precise and Durable',
       image: "/HomePageBanner/solderingsolutionsliderimage.png",
       subheading: "Soldering Solutions",
       desc: "Achieve flawless connections with our reliable soldering expertise",
-      heading: "Soldering Solutions",
     },
     {
+      heading: 'Strong and Accurate',
       image: "/HomePageBanner/Weldingsolutionsliderimage.jpg",
       subheading: "Welding Solutions",
       desc: "Delivering dependable welds with unmatched precision for every application",
-      heading: "Welding Solutions",
     },
   ];
 
