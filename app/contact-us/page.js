@@ -43,31 +43,31 @@ const ContactForm = () => {
         width={1440}
         height={600}
       />
-      <div className="flex flex-col lg:flex-row py-6 lg:py-12 px-5 sm:px-10 gap-10 max-w-[1440px] mx-auto bg-white">
+      <div className="flex flex-col lg:flex-row py-[100px] px-5 sm:px-10 gap-10 max-w-[1440px] mx-auto bg-white">
         <div className="flex-1">
-          <h2 className="text-3xl font-bold text-[#AA1F2E] mb-4">Contact Us</h2>
-          <div className="space-y-4">
-            <p className="flex items-center gap-2">
+          <h2 className="text-[42px] font-normal text-[#AA1F2E] mb-5">Contact Us</h2>
+          <div className="space-y-4 text-black text-lg font-normal">
+            <p className="flex items-center gap-5">
               <span className="material-icons">
                 <HiOutlineMail />
               </span>
-              <a href="mailto:info@safeinvotec.com" className="text-gray-700">
+              <a href="mailto:info@safeinvotec.com" >
                 info@safeinvotec.com
               </a>
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-5">
               <span className="material-icons">
                 <IoCallOutline />
               </span>
-              <a href="tel:+919769035683" className="text-gray-700">
+              <a href="tel:+919769035683" >
                 +91 97690-35683
               </a>
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-5">
               <span className="material-icons">
                 <GrLocation />
               </span>
-              <span className="text-gray-700">
+              <span >
                 C517, 215 Atrium Andheri Kurla Road, Andheri (E), Mumbai-400059
               </span>
             </p>
@@ -75,15 +75,15 @@ const ContactForm = () => {
         </div>
 
         <div className="flex-1 bg-white">
-          <h3 className="text-xl font-semibold text-gray-800 mb-6">
+          <h3 className="text-2xl font-medium text-black">
             Let{"'"}s talk about what SafeInvotec can do for your business.
           </h3>
-          <p className=" mb-5">
+          <p className=" my-5 text-black opacity-60 font-normal text-base">
             Need help with something? Get in touch with our friendly team and
             we’ll get in touch within 24 hours.
           </p>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label
                   htmlFor="fullName"
