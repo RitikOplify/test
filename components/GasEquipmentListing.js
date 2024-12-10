@@ -52,7 +52,7 @@ const GasEquipmentListing = () => {
             >
               <div className=" border rounded-lg bg-[#FCFCFC]">
                 <Image
-                  src="/GasEquipment/601-25-AC right_11zon.png"
+                  src="/ProductImages/601-25-AC right.png"
                   className=" scale-75"
                   alt="Model 601"
                   layout="responsive"
@@ -74,7 +74,7 @@ const GasEquipmentListing = () => {
             >
               <div className=" border rounded-lg bg-[#FCFCFC]">
                 <Image
-                  src="/GasEquipment/601-25-AC right_11zon.png"
+                  src="/ProductImages/801-1,5-AC right.png"
                   className=" scale-75"
                   alt="Model 601"
                   layout="responsive"
@@ -96,7 +96,7 @@ const GasEquipmentListing = () => {
             >
               <div className=" border rounded-lg bg-[#FCFCFC]">
                 <Image
-                  src="/GasEquipment/601-25-AC right_11zon.png"
+                  src="/ProductImages/896-1,5-AC left.png"
                   className=" scale-75"
                   alt="Model 601"
                   layout="responsive"
